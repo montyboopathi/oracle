@@ -1,0 +1,31 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <listener>
+		<listener-class>com.oracleTask.ApplicationContextListener</listener-class>
+	</listener>
+  <servlet>
+  	<servlet-name>CreateService</servlet-name>
+  	<servlet-class>com.oracleTask.CreateService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CreateService</servlet-name>
+  	<url-pattern>/CreateService</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>DeleteService</servlet-name>
+  	<servlet-class>com.oracleTask.DeleteService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteService</servlet-name>
+  	<url-pattern>/Employee/DeleteService/1.0.0</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>ListService</servlet-name>
+  	<servlet-class>com.oracleTask.ListService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ListService</servlet-name>
+  	<url-pattern>/Employee/ListService/1.0.0</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
